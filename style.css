@@ -1,63 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(to right, #232526, #414345);
+  border-radius: 10px;
 }
-body{
-    text-align: center;
-    background-color: rebeccapurple;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(223, 233, 83);
+h1 {
+  text-align: center;
+  color: #6be585;
 }
-label{
-    display: block;
-    padding-bottom: 1rem;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-h1{
-    padding: 1.5rem;
+input {
+  width: 100%;
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 20px;
 }
-div{
-    padding:1rem;
+label {
+  margin: 10px;
+  color: #fff;
 }
-.inline-items{
-    display:table-cell;
-    
+input[type="number"]{
+    color: yellowgreen;
 }
-.footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding-bottom: 1rem;
- }
- .social-link {
-    padding: 50px 0;
-    text-align: center;
-  }
-  .inline-items{
-    list-style-type: none;
-    display: inline-block;
-    padding: 1rem;
-  }
- .footer .link{
-     color: white;
- }
- .footer .footer-header{
-     font-weight: bold;
-     font-size: large;
- }
- 
- /* icons */
- .fa {
-     padding: 10px;
-     font-size: 0px;
-     width: 15px;
-     text-align: center;
-     text-decoration: none;
-     border: 1px solid white;
-     border-radius: 15%;
-   }
- .fa:hover {
-     background-color:white ;
-   }
-
+button{
+    color: #fff;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 2s;
+}
+button:hover{
+    background: #fff;
+    color: #000;
+   
+}
+#output-box{
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
